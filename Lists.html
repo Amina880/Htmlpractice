@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <title>Simple Cookie Recipe</title>"
+    </head>
+    <body>
+        <header><h1>Simple Cookie Recipe</h1></header>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>Flour</li>
+            <li>Sugar</li>
+            <li>Butter</li>
+        </ul>
+        <h2>Directions</h2>
+        <ol>
+            <li>Preheat your oven to 375<sup>o</sup>F (190<sup>o</sup>C).</li>
+            <li>Mix all Ingredients in a large bowl.</li>
+            <li>Place spoonfuls of dough on a baking sheet.</li>
+            <li>Bake for 10 to 12 minutes.</li>
+        </ol>
+        <h2>Cooking Glossary</h2>
+        <dl>
+            <dt>Preheat</dt>
+            <dd><em>Heat (an oven or grill) beforehand.</em></dd>
+            <dt>Bake</dt>
+            <dd><em>Cook (food) by dry heat without exposure to a flame, typically in an oven</em></dd>
+        </dl>
+        <form action="/submit-form" method="post">
+            <div>
+            <label for="username">Username (4-8 characters):</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@domain.com">
+            </div>
+            <div>
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
